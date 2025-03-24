@@ -1,0 +1,20 @@
+2025-03-17 00:18:06 [http-nio-8080-exec-1] ERROR juara.coding.day19.util.LoggingFile - 
+ERROR IN CLASS ==> GroupMenuService
+METHOD ==> save(GroupMenu groupMenu) -- Line 38
+ERROR IS ==> / by zero
+
+2025-03-17 01:06:11 [http-nio-8080-exec-1] ERROR juara.coding.day19.util.LoggingFile - 
+ERROR IN CLASS ==> GroupMenuService
+METHOD ==> save(GroupMenu groupMenu) -- Line 38
+ERROR IS ==> / by zero
+
+2025-03-17 01:08:03 [http-nio-8080-exec-2] ERROR juara.coding.day19.util.LoggingFile - 
+ERROR IN CLASS ==> GroupMenuService
+METHOD ==> save(GroupMenu groupMenu) -- Line 38
+ERROR IS ==> / by zero
+
+2025-03-17 02:51:21 [http-nio-8080-exec-1] ERROR juara.coding.day19.util.LoggingFile - 
+ERROR IN CLASS ==> GroupMenuService
+METHOD ==> save(GroupMenu groupMenu, HttpServletRequest request) -- Line 59 {"reqHeader":{"content-length":"59","postman-token":"61802696-2168-42dc-a4d6-0ee24cc05683","host":"localhost:8080","content-type":"application\/json","connection":"keep-alive","accept-encoding":"gzip, deflate, br","user-agent":"PostmanRuntime\/7.43.2","accept":"*\/*"},"method":"POST","remoteHost":"0:0:0:0:0:0:0:1","session":org.apache.catalina.session.StandardSessionFacade@204e54,"serverName":"localhost","isSecure":false,"reqParam":{},"queryString":null,"serverPort":8080,"locale":en_ID,"principal":null,"requestSessionId":null,"reqBody":"{    \"nama\" : \"NamaA\",    \"deskripsi\" : \"Deskripsi1\"}","authType":null,"pathInfo":null,"remoteAddr":"0:0:0:0:0:0:0:1"}
+ERROR IS ==> / by zero
+

@@ -1,0 +1,5 @@
+2025-03-17 03:02:53 [http-nio-8080-exec-3] ERROR juara.coding.day19.util.LoggingFile - 
+ERROR IN CLASS ==> GroupMenuService
+METHOD ==> save(GroupMenu groupMenu) -- Line 38{"reqHeader":{"content-length":"59","cookie":"JSESSIONID=60FFA3AB22A2660A934A3E2127CF4167","postman-token":"bffd57a5-1bf2-4bef-bc98-a300ffebb60a","host":"localhost:8080","content-type":"application\/json","connection":"keep-alive","accept-encoding":"gzip, deflate, br","user-agent":"PostmanRuntime\/7.43.2","accept":"*\/*"},"method":"POST","remoteHost":"0:0:0:0:0:0:0:1","session":org.apache.catalina.session.StandardSessionFacade@435fe966,"serverName":"localhost","isSecure":false,"reqParam":{},"queryString":null,"serverPort":8080,"locale":en_ID,"principal":null,"requestSessionId":"60FFA3AB22A2660A934A3E2127CF4167","reqBody":"{    \"nama\" : \"NamaA\",    \"deskripsi\" : \"Deskripsi1\"}","authType":null,"pathInfo":null,"remoteAddr":"0:0:0:0:0:0:0:1"}
+ERROR IS ==> / by zero
+

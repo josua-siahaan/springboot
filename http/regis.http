@@ -1,0 +1,31 @@
+### Registration
+POST http://localhost:8080/auth/regis
+Content-Type: application/json
+
+{
+  "username":"josua.1234",
+  "password":"Josua@1234",
+  "email":"josuasiahaan@gmail.com",
+  "alamat":"Medan Medan Medan Medan Medan",
+  "no-hp":"082112122334",
+  "tanggal-lahir":"2001-12-12",
+  "nama":"Josua Halomoan Siahaan"
+}
+
+### Verify OTP Regist
+POST http://localhost:8080/auth/verify-regis
+Content-Type: application/json
+
+{
+  "otp":"257182",
+  "email":"josuasiahaan@gmail.com"
+}
+
+### Login
+POST http://localhost:8080/auth/verify-regis
+Content-Type: application/json
+
+{
+  "username":"josua.1234",
+  "password":"Josua@1234"
+}
