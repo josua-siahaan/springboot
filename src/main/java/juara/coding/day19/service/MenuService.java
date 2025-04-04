@@ -12,7 +12,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 import org.springframework.web.multipart.MultipartFile;
 
-import java.awt.print.Pageable;
+import org.springframework.data.domain.Pageable;
 import java.util.List;
 import java.util.Map;
 
@@ -40,7 +40,7 @@ public class MenuService implements IService<Menu>, IReport<Menu> {
     }
 
     @Override
-    public ResponseEntity<Object> findAll() {
+    public ResponseEntity<Object> findAll(Pageable pageable, HttpServletRequest request) {
         return null;
     }
 

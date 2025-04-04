@@ -52,11 +52,11 @@ public class Crypto {
     }
 
     public static void main(String[] args) {
-        String strToEncrypt = "123456";//put text to encrypt in here
+        String strToEncrypt = "siahaan654josua@gmail.com";//put text to encrypt in here
         System.out.println("Encryption Result : "+performEncrypt(strToEncrypt));
 
 //        String strToDecrypt = "0d3f28a8cb0577e4fd42fbfdf2f72eac";//put text to decrypt in here
-        String strToDecrypt = "496dd60b061c524dfbea5aebd299409d";//put text to decrypt in here
+        String strToDecrypt = "b34b9792d178c95a286c4057a145931d23e16ef290ed4f51ddad7d13cdc25561";//put text to decrypt in here
         System.out.println("Decryption Result : "+performDecrypt(strToDecrypt));
     }
 }

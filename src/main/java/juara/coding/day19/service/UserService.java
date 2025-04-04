@@ -10,7 +10,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 
-import java.awt.print.Pageable;
+import org.springframework.data.domain.Pageable;
 
 @Service
 @Transactional
@@ -38,7 +38,7 @@ public class UserService implements IService<User> {
     }
 
     @Override
-    public ResponseEntity<Object> findAll() {
+    public ResponseEntity<Object> findAll(Pageable pageable, HttpServletRequest request) {
         return null;
     }
 

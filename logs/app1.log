@@ -3,3 +3,232 @@ ERROR IN CLASS ==> GroupMenuService
 METHOD ==> save(GroupMenu groupMenu) -- Line 38{"reqHeader":{"content-length":"59","cookie":"JSESSIONID=60FFA3AB22A2660A934A3E2127CF4167","postman-token":"bffd57a5-1bf2-4bef-bc98-a300ffebb60a","host":"localhost:8080","content-type":"application\/json","connection":"keep-alive","accept-encoding":"gzip, deflate, br","user-agent":"PostmanRuntime\/7.43.2","accept":"*\/*"},"method":"POST","remoteHost":"0:0:0:0:0:0:0:1","session":org.apache.catalina.session.StandardSessionFacade@435fe966,"serverName":"localhost","isSecure":false,"reqParam":{},"queryString":null,"serverPort":8080,"locale":en_ID,"principal":null,"requestSessionId":"60FFA3AB22A2660A934A3E2127CF4167","reqBody":"{    \"nama\" : \"NamaA\",    \"deskripsi\" : \"Deskripsi1\"}","authType":null,"pathInfo":null,"remoteAddr":"0:0:0:0:0:0:0:1"}
 ERROR IS ==> / by zero
 
+2025-03-30 02:28:47 [http-nio-8080-exec-1] ERROR juara.coding.day19.util.LoggingFile - 
+ERROR IN CLASS ==> JwtFilter
+METHOD ==> doFilterInternal -- {"reqHeader":{"authorization":"Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwYXVsLjEyMzQiLCJwaG4iOiIwODEyODYxMTExMTEiLCJpZCI6MiwiZXhwIjoxNzQzMjc5NTg5LCJpYXQiOjE3NDMyNzU5ODksIm1sIjoicG9sbC5jaGlodXlAZ21haWwuY29tIn0.0C7YVo0Xxdz4zl4oIeHnEgJzuyIvWgewPjnTIPRViLBHra5EoVcaznVc5k3T24NdaUPjZvJd3vibgzvOkvCtrw","postman-token":"1ddab171-2701-4cd3-bd32-edd16585690c","host":"localhost:8080","connection":"keep-alive","accept-encoding":"gzip, deflate, br","user-agent":"PostmanRuntime\/7.43.2","accept":"*\/*"},"method":"GET","remoteHost":"0:0:0:0:0:0:0:1","session":org.apache.catalina.session.StandardSessionFacade@7f7f076f,"serverName":"localhost","isSecure":false,"reqParam":{},"queryString":null,"serverPort":8080,"locale":en_ID,"principal":null,"requestSessionId":null,"authType":null,"pathInfo":null,"remoteAddr":"0:0:0:0:0:0:0:1"}
+ERROR IS ==> Cannot invoke "juara.coding.day19.model.Akses.getLtmenu()" because "this.akses" is null
+
+2025-03-30 02:31:54 [http-nio-8080-exec-5] ERROR juara.coding.day19.util.LoggingFile - 
+ERROR IN CLASS ==> JwtFilter
+METHOD ==> doFilterInternal -- {"reqHeader":{"authorization":"Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwYXVsLjEyMzQiLCJwaG4iOiIwODEyODYxMTExMTEiLCJpZCI6MiwiZXhwIjoxNzQzMjc5NTg5LCJpYXQiOjE3NDMyNzU5ODksIm1sIjoicG9sbC5jaGlodXlAZ21haWwuY29tIn0.0C7YVo0Xxdz4zl4oIeHnEgJzuyIvWgewPjnTIPRViLBHra5EoVcaznVc5k3T24NdaUPjZvJd3vibgzvOkvCtrw","cookie":"JSESSIONID=98CF3B72FF836E76536AA49ACF98919F","postman-token":"3674d634-49a5-445b-aa0c-3c0e5bd86809","host":"localhost:8080","connection":"keep-alive","accept-encoding":"gzip, deflate, br","user-agent":"PostmanRuntime\/7.43.2","accept":"*\/*"},"method":"GET","remoteHost":"0:0:0:0:0:0:0:1","session":org.apache.catalina.session.StandardSessionFacade@7f7f076f,"serverName":"localhost","isSecure":false,"reqParam":{},"queryString":null,"serverPort":8080,"locale":en_ID,"principal":null,"requestSessionId":"98CF3B72FF836E76536AA49ACF98919F","authType":null,"pathInfo":null,"remoteAddr":"0:0:0:0:0:0:0:1"}
+ERROR IS ==> Cannot invoke "juara.coding.day19.model.Akses.getLtmenu()" because "this.akses" is null
+
+2025-03-30 02:33:25 [http-nio-8080-exec-9] ERROR juara.coding.day19.util.LoggingFile - 
+ERROR IN CLASS ==> JwtFilter
+METHOD ==> doFilterInternal -- {"reqHeader":{"authorization":"Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwYXVsLjEyMzQiLCJwaG4iOiIwODEyODYxMTExMTEiLCJpZCI6MiwiZXhwIjoxNzQzMjgwMzc4LCJpYXQiOjE3NDMyNzY3NzgsIm1sIjoicG9sbC5jaGlodXlAZ21haWwuY29tIn0.GiHTvxT81wxAWExjoEpwFj9cnPuEvE6iTwguIQEsT9N0P3KoR622gjetzpgf7U8Z0biN0SE7-yxlO8nk-5vypg","cookie":"JSESSIONID=98CF3B72FF836E76536AA49ACF98919F","postman-token":"cb10b9fd-a982-4daf-84af-0fe951457f31","host":"localhost:8080","connection":"keep-alive","accept-encoding":"gzip, deflate, br","user-agent":"PostmanRuntime\/7.43.2","accept":"*\/*"},"method":"GET","remoteHost":"0:0:0:0:0:0:0:1","session":org.apache.catalina.session.StandardSessionFacade@7f7f076f,"serverName":"localhost","isSecure":false,"reqParam":{},"queryString":null,"serverPort":8080,"locale":en_ID,"principal":null,"requestSessionId":"98CF3B72FF836E76536AA49ACF98919F","authType":null,"pathInfo":null,"remoteAddr":"0:0:0:0:0:0:0:1"}
+ERROR IS ==> Cannot invoke "juara.coding.day19.model.Akses.getLtmenu()" because "this.akses" is null
+
+2025-03-30 02:35:42 [http-nio-8080-exec-2] ERROR juara.coding.day19.util.LoggingFile - 
+ERROR IN CLASS ==> JwtFilter
+METHOD ==> doFilterInternal -- {"reqHeader":{"authorization":"Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwYXVsLjEyMzQiLCJwaG4iOiIwODEyODYxMTExMTEiLCJpZCI6MiwiZXhwIjoxNzQzMjgwMzc4LCJpYXQiOjE3NDMyNzY3NzgsIm1sIjoicG9sbC5jaGlodXlAZ21haWwuY29tIn0.GiHTvxT81wxAWExjoEpwFj9cnPuEvE6iTwguIQEsT9N0P3KoR622gjetzpgf7U8Z0biN0SE7-yxlO8nk-5vypg","cookie":"JSESSIONID=98CF3B72FF836E76536AA49ACF98919F","postman-token":"b5578658-5684-4e87-a562-85ba2ba680ca","host":"localhost:8080","connection":"keep-alive","accept-encoding":"gzip, deflate, br","user-agent":"PostmanRuntime\/7.43.2","accept":"*\/*"},"method":"GET","remoteHost":"0:0:0:0:0:0:0:1","session":org.apache.catalina.session.StandardSessionFacade@351c8870,"serverName":"localhost","isSecure":false,"reqParam":{},"queryString":null,"serverPort":8080,"locale":en_ID,"principal":null,"requestSessionId":"98CF3B72FF836E76536AA49ACF98919F","authType":null,"pathInfo":null,"remoteAddr":"0:0:0:0:0:0:0:1"}
+ERROR IS ==> Cannot invoke "juara.coding.day19.model.Akses.getLtmenu()" because "this.akses" is null
+
+2025-03-30 02:38:39 [http-nio-8080-exec-2] ERROR juara.coding.day19.util.LoggingFile - 
+ERROR IN CLASS ==> JwtFilter
+METHOD ==> doFilterInternal -- {"reqHeader":{"authorization":"Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwYXVsLjEyMzQiLCJwaG4iOiIwODEyODYxMTExMTEiLCJpZCI6MiwiZXhwIjoxNzQzMjgwMzc4LCJpYXQiOjE3NDMyNzY3NzgsIm1sIjoicG9sbC5jaGlodXlAZ21haWwuY29tIn0.GiHTvxT81wxAWExjoEpwFj9cnPuEvE6iTwguIQEsT9N0P3KoR622gjetzpgf7U8Z0biN0SE7-yxlO8nk-5vypg","cookie":"JSESSIONID=DEC5F66DA892430869B85192490F1814","postman-token":"703bd1cc-b3da-4c80-9147-16a3a40131c7","host":"localhost:8080","connection":"keep-alive","accept-encoding":"gzip, deflate, br","user-agent":"PostmanRuntime\/7.43.2","accept":"*\/*"},"method":"GET","remoteHost":"0:0:0:0:0:0:0:1","session":org.apache.catalina.session.StandardSessionFacade@450f73ff,"serverName":"localhost","isSecure":false,"reqParam":{},"queryString":null,"serverPort":8080,"locale":en_ID,"principal":null,"requestSessionId":"DEC5F66DA892430869B85192490F1814","authType":null,"pathInfo":null,"remoteAddr":"0:0:0:0:0:0:0:1"}
+ERROR IS ==> Cannot invoke "juara.coding.day19.model.Akses.getLtmenu()" because "this.akses" is null
+
+2025-03-30 02:38:41 [http-nio-8080-exec-5] ERROR juara.coding.day19.util.LoggingFile - 
+ERROR IN CLASS ==> JwtFilter
+METHOD ==> doFilterInternal -- {"reqHeader":{"authorization":"Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwYXVsLjEyMzQiLCJwaG4iOiIwODEyODYxMTExMTEiLCJpZCI6MiwiZXhwIjoxNzQzMjgwMzc4LCJpYXQiOjE3NDMyNzY3NzgsIm1sIjoicG9sbC5jaGlodXlAZ21haWwuY29tIn0.GiHTvxT81wxAWExjoEpwFj9cnPuEvE6iTwguIQEsT9N0P3KoR622gjetzpgf7U8Z0biN0SE7-yxlO8nk-5vypg","cookie":"JSESSIONID=A0347A2CC489A3F9B5247ACC934D9026","postman-token":"c2152215-fad5-44f6-9b73-0a824792d7d1","host":"localhost:8080","connection":"keep-alive","accept-encoding":"gzip, deflate, br","user-agent":"PostmanRuntime\/7.43.2","accept":"*\/*"},"method":"GET","remoteHost":"0:0:0:0:0:0:0:1","session":org.apache.catalina.session.StandardSessionFacade@450f73ff,"serverName":"localhost","isSecure":false,"reqParam":{},"queryString":null,"serverPort":8080,"locale":en_ID,"principal":null,"requestSessionId":"A0347A2CC489A3F9B5247ACC934D9026","authType":null,"pathInfo":null,"remoteAddr":"0:0:0:0:0:0:0:1"}
+ERROR IS ==> Cannot invoke "juara.coding.day19.model.Akses.getLtmenu()" because "this.akses" is null
+
+2025-03-30 02:58:06 [http-nio-8080-exec-4] ERROR juara.coding.day19.util.LoggingFile - 
+ERROR IN CLASS ==> JwtFilter
+METHOD ==> doFilterInternal -- {"reqHeader":{"authorization":"Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwYXVsLjEyMzQiLCJwaG4iOiIwODEyODYxMTExMTEiLCJpZCI6MiwiZXhwIjoxNzQzMjgwMzc4LCJpYXQiOjE3NDMyNzY3NzgsIm1sIjoicG9sbC5jaGlodXlAZ21haWwuY29tIn0.GiHTvxT81wxAWExjoEpwFj9cnPuEvE6iTwguIQEsT9N0P3KoR622gjetzpgf7U8Z0biN0SE7-yxlO8nk-5vypg","content-length":"64","cookie":"JSESSIONID=A0347A2CC489A3F9B5247ACC934D9026","postman-token":"ec42bdd7-51cd-489f-a1e8-7e0a70d42021","host":"localhost:8080","content-type":"application\/json","connection":"keep-alive","accept-encoding":"gzip, deflate, br","user-agent":"PostmanRuntime\/7.43.2","accept":"*\/*"},"method":"POST","remoteHost":"0:0:0:0:0:0:0:1","session":org.apache.catalina.session.StandardSessionFacade@5c32e55e,"serverName":"localhost","isSecure":false,"reqParam":{},"queryString":null,"serverPort":8080,"locale":en_ID,"principal":null,"requestSessionId":"A0347A2CC489A3F9B5247ACC934D9026","reqBody":"{    \"nama\" : \"Group-Menu\",    \"deskripsi\" : \"Group-Menu\"}","authType":null,"pathInfo":null,"remoteAddr":"0:0:0:0:0:0:0:1"}
+ERROR IS ==> Cannot invoke "juara.coding.day19.model.Akses.getLtmenu()" because "this.akses" is null
+
+2025-03-31 01:01:32 [http-nio-8080-exec-5] ERROR juara.coding.day19.util.LoggingFile - 
+ERROR IN CLASS ==> JwtFilter
+METHOD ==> doFilterInternal -- {"reqHeader":{"authorization":"Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwYXVsLjEyMzQiLCJwaG4iOiIwODEyODYxMTExMTEiLCJpZCI6MiwiZXhwIjoxNzQzMzYxMTQ4LCJpYXQiOjE3NDMzNTc1NDgsIm1sIjoicG9sbC5jaGlodXlAZ21haWwuY29tIn0.R8YjoEPAmOH8L-QyIoDkTlo3OZzFqWTFZI79wasyU-u0nubGSSOGVKnXc0SPY-dBxsaGcYkLUqixz4L-i4z2rw","postman-token":"3a7a69bc-42a7-43b4-982f-82256392b969","host":"localhost:8080","connection":"keep-alive","accept-encoding":"gzip, deflate, br","user-agent":"PostmanRuntime\/7.43.3","accept":"*\/*"},"method":"GET","remoteHost":"0:0:0:0:0:0:0:1","session":org.apache.catalina.session.StandardSessionFacade@7493874b,"serverName":"localhost","isSecure":false,"reqParam":{"size":"2","column":"id","value":""},"queryString":"column=id&value=&size=2","serverPort":8080,"locale":en_ID,"principal":null,"requestSessionId":null,"authType":null,"pathInfo":null,"remoteAddr":"0:0:0:0:0:0:0:1"}
+ERROR IS ==> Cannot invoke "juara.coding.day19.model.Akses.getLtmenu()" because "this.akses" is null
+
+2025-03-31 01:01:52 [http-nio-8080-exec-6] ERROR juara.coding.day19.util.LoggingFile - 
+ERROR IN CLASS ==> JwtFilter
+METHOD ==> doFilterInternal -- {"reqHeader":{"authorization":"Bearer Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwYXVsLjEyMzQiLCJwaG4iOiIwODEyODYxMTExMTEiLCJpZCI6MiwiZXhwIjoxNzQzMzYxMTQ4LCJpYXQiOjE3NDMzNTc1NDgsIm1sIjoicG9sbC5jaGlodXlAZ21haWwuY29tIn0.R8YjoEPAmOH8L-QyIoDkTlo3OZzFqWTFZI79wasyU-u0nubGSSOGVKnXc0SPY-dBxsaGcYkLUqixz4L-i4z2rw","cookie":"JSESSIONID=93D373A14F727B5D0BAC9961F254A936","postman-token":"91f483ff-ee0b-42cd-89d4-621fa5d7c6a1","host":"localhost:8080","connection":"keep-alive","accept-encoding":"gzip, deflate, br","user-agent":"PostmanRuntime\/7.43.3","accept":"*\/*"},"method":"GET","remoteHost":"0:0:0:0:0:0:0:1","session":org.apache.catalina.session.StandardSessionFacade@7493874b,"serverName":"localhost","isSecure":false,"reqParam":{"size":"2","column":"id","value":""},"queryString":"column=id&value=&size=2","serverPort":8080,"locale":en_ID,"principal":null,"requestSessionId":"93D373A14F727B5D0BAC9961F254A936","authType":null,"pathInfo":null,"remoteAddr":"0:0:0:0:0:0:0:1"}
+ERROR IS ==> Unable to read JSON value: �z��&�r#�$�3S"
+
+2025-03-31 01:01:57 [http-nio-8080-exec-7] ERROR juara.coding.day19.util.LoggingFile - 
+ERROR IN CLASS ==> JwtFilter
+METHOD ==> doFilterInternal -- {"reqHeader":{"authorization":"Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwYXVsLjEyMzQiLCJwaG4iOiIwODEyODYxMTExMTEiLCJpZCI6MiwiZXhwIjoxNzQzMzYxMTQ4LCJpYXQiOjE3NDMzNTc1NDgsIm1sIjoicG9sbC5jaGlodXlAZ21haWwuY29tIn0.R8YjoEPAmOH8L-QyIoDkTlo3OZzFqWTFZI79wasyU-u0nubGSSOGVKnXc0SPY-dBxsaGcYkLUqixz4L-i4z2rw","cookie":"JSESSIONID=93D373A14F727B5D0BAC9961F254A936","postman-token":"dbcfae97-6a11-4367-8999-fd57e90920ad","host":"localhost:8080","connection":"keep-alive","accept-encoding":"gzip, deflate, br","user-agent":"PostmanRuntime\/7.43.3","accept":"*\/*"},"method":"GET","remoteHost":"0:0:0:0:0:0:0:1","session":org.apache.catalina.session.StandardSessionFacade@7493874b,"serverName":"localhost","isSecure":false,"reqParam":{"size":"2","column":"id","value":""},"queryString":"column=id&value=&size=2","serverPort":8080,"locale":en_ID,"principal":null,"requestSessionId":"93D373A14F727B5D0BAC9961F254A936","authType":null,"pathInfo":null,"remoteAddr":"0:0:0:0:0:0:0:1"}
+ERROR IS ==> Cannot invoke "juara.coding.day19.model.Akses.getLtmenu()" because "this.akses" is null
+
+2025-03-31 01:12:39 [http-nio-8080-exec-3] ERROR juara.coding.day19.util.LoggingFile - 
+ERROR IN CLASS ==> JwtFilter
+METHOD ==> doFilterInternal -- {"reqHeader":{"authorization":"Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwYXVsLjEyMzQiLCJwaG4iOiIwODEyODYxMTExMTEiLCJpZCI6MiwiZXhwIjoxNzQzMzYxOTIyLCJpYXQiOjE3NDMzNTgzMjIsIm1sIjoicG9sbC5jaGlodXlAZ21haWwuY29tIn0.-JtOXL5kbcbvRD1l-cofKR_PdfgbU7sL32xazGCPi574tgJ--tFERoPXDiGAmpvm-FMhC723nAWqyJn2RIqzYg","host":"localhost:8080","user-agent":"insomnia\/11.0.1","accept":"*\/*"},"method":"GET","remoteHost":"127.0.0.1","session":org.apache.catalina.session.StandardSessionFacade@37f5b0da,"serverName":"localhost","isSecure":false,"reqParam":{"size":"2","column":"id","value":""},"queryString":"column=id&value=&size=2","serverPort":8080,"locale":en_ID,"principal":null,"requestSessionId":null,"authType":null,"pathInfo":null,"remoteAddr":"127.0.0.1"}
+ERROR IS ==> Cannot invoke "juara.coding.day19.model.Akses.getLtmenu()" because "this.akses" is null
+
+2025-03-31 01:13:47 [http-nio-8080-exec-5] ERROR juara.coding.day19.util.LoggingFile - 
+ERROR IN CLASS ==> JwtFilter
+METHOD ==> doFilterInternal -- {"reqHeader":{"authorization":"Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwYXVsLjEyMzQiLCJwaG4iOiIwODEyODYxMTExMTEiLCJpZCI6MiwiZXhwIjoxNzQzMzYxOTIyLCJpYXQiOjE3NDMzNTgzMjIsIm1sIjoicG9sbC5jaGlodXlAZ21haWwuY29tIn0.-JtOXL5kbcbvRD1l-cofKR_PdfgbU7sL32xazGCPi574tgJ--tFERoPXDiGAmpvm-FMhC723nAWqyJn2RIqzYg","cookie":"JSESSIONID=46EFD95D5B689E65A5C2E17DD8E37503","host":"localhost:8080","accept":"*\/*"},"method":"GET","remoteHost":"127.0.0.1","session":org.apache.catalina.session.StandardSessionFacade@37f5b0da,"serverName":"localhost","isSecure":false,"reqParam":{"size":"2","column":"id","value":""},"queryString":"column=id&value=&size=2","serverPort":8080,"locale":en_ID,"principal":null,"requestSessionId":"46EFD95D5B689E65A5C2E17DD8E37503","authType":null,"pathInfo":null,"remoteAddr":"127.0.0.1"}
+ERROR IS ==> Cannot invoke "juara.coding.day19.model.Akses.getLtmenu()" because "this.akses" is null
+
+2025-03-31 01:14:00 [http-nio-8080-exec-6] ERROR juara.coding.day19.util.LoggingFile - 
+ERROR IN CLASS ==> JwtFilter
+METHOD ==> doFilterInternal -- {"reqHeader":{"authorization":"Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwYXVsLjEyMzQiLCJwaG4iOiIwODEyODYxMTExMTEiLCJpZCI6MiwiZXhwIjoxNzQzMzYxOTIyLCJpYXQiOjE3NDMzNTgzMjIsIm1sIjoicG9sbC5jaGlodXlAZ21haWwuY29tIn0.-JtOXL5kbcbvRD1l-cofKR_PdfgbU7sL32xazGCPi574tgJ--tFERoPXDiGAmpvm-FMhC723nAWqyJn2RIqzYg","cookie":"JSESSIONID=46EFD95D5B689E65A5C2E17DD8E37503","host":"localhost:8080","accept":"*\/*"},"method":"GET","remoteHost":"127.0.0.1","session":org.apache.catalina.session.StandardSessionFacade@37f5b0da,"serverName":"localhost","isSecure":false,"reqParam":{"size":"2","column":"id","value":""},"queryString":"column=id&value=&size=2","serverPort":8080,"locale":en_ID,"principal":null,"requestSessionId":"46EFD95D5B689E65A5C2E17DD8E37503","authType":null,"pathInfo":null,"remoteAddr":"127.0.0.1"}
+ERROR IS ==> Cannot invoke "juara.coding.day19.model.Akses.getLtmenu()" because "this.akses" is null
+
+2025-03-31 01:15:26 [http-nio-8080-exec-8] ERROR juara.coding.day19.util.LoggingFile - 
+ERROR IN CLASS ==> JwtFilter
+METHOD ==> doFilterInternal -- {"reqHeader":{"authorization":"Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwYXVsLjEyMzQiLCJwaG4iOiIwODEyODYxMTExMTEiLCJpZCI6MiwiZXhwIjoxNzQzMzYxOTIyLCJpYXQiOjE3NDMzNTgzMjIsIm1sIjoicG9sbC5jaGlodXlAZ21haWwuY29tIn0.-JtOXL5kbcbvRD1l-cofKR_PdfgbU7sL32xazGCPi574tgJ--tFERoPXDiGAmpvm-FMhC723nAWqyJn2RIqzYg","cookie":"JSESSIONID=46EFD95D5B689E65A5C2E17DD8E37503","host":"localhost:8080","accept":"*\/*"},"method":"GET","remoteHost":"127.0.0.1","session":org.apache.catalina.session.StandardSessionFacade@37f5b0da,"serverName":"localhost","isSecure":false,"reqParam":{"size":"2","column":"id","value":""},"queryString":"column=id&value=&size=2&column=id&value=&size=2","serverPort":8080,"locale":en_ID,"principal":null,"requestSessionId":"46EFD95D5B689E65A5C2E17DD8E37503","authType":null,"pathInfo":null,"remoteAddr":"127.0.0.1"}
+ERROR IS ==> Cannot invoke "juara.coding.day19.model.Akses.getLtmenu()" because "this.akses" is null
+
+2025-03-31 01:15:27 [http-nio-8080-exec-9] ERROR juara.coding.day19.util.LoggingFile - 
+ERROR IN CLASS ==> JwtFilter
+METHOD ==> doFilterInternal -- {"reqHeader":{"authorization":"Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwYXVsLjEyMzQiLCJwaG4iOiIwODEyODYxMTExMTEiLCJpZCI6MiwiZXhwIjoxNzQzMzYxOTIyLCJpYXQiOjE3NDMzNTgzMjIsIm1sIjoicG9sbC5jaGlodXlAZ21haWwuY29tIn0.-JtOXL5kbcbvRD1l-cofKR_PdfgbU7sL32xazGCPi574tgJ--tFERoPXDiGAmpvm-FMhC723nAWqyJn2RIqzYg","cookie":"JSESSIONID=46EFD95D5B689E65A5C2E17DD8E37503","host":"localhost:8080","accept":"*\/*"},"method":"GET","remoteHost":"127.0.0.1","session":org.apache.catalina.session.StandardSessionFacade@37f5b0da,"serverName":"localhost","isSecure":false,"reqParam":{"size":"2","column":"id","value":""},"queryString":"column=id&value=&size=2&column=id&value=&size=2","serverPort":8080,"locale":en_ID,"principal":null,"requestSessionId":"46EFD95D5B689E65A5C2E17DD8E37503","authType":null,"pathInfo":null,"remoteAddr":"127.0.0.1"}
+ERROR IS ==> Cannot invoke "juara.coding.day19.model.Akses.getLtmenu()" because "this.akses" is null
+
+2025-03-31 01:17:10 [http-nio-8080-exec-1] ERROR juara.coding.day19.util.LoggingFile - 
+ERROR IN CLASS ==> JwtFilter
+METHOD ==> doFilterInternal -- {"reqHeader":{"authorization":"Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwYXVsLjEyMzQiLCJwaG4iOiIwODEyODYxMTExMTEiLCJpZCI6MiwiZXhwIjoxNzQzMzYxOTIyLCJpYXQiOjE3NDMzNTgzMjIsIm1sIjoicG9sbC5jaGlodXlAZ21haWwuY29tIn0.-JtOXL5kbcbvRD1l-cofKR_PdfgbU7sL32xazGCPi574tgJ--tFERoPXDiGAmpvm-FMhC723nAWqyJn2RIqzYg","cookie":"JSESSIONID=46EFD95D5B689E65A5C2E17DD8E37503","host":"localhost:8080","accept":"*\/*"},"method":"GET","remoteHost":"127.0.0.1","session":org.apache.catalina.session.StandardSessionFacade@37f5b0da,"serverName":"localhost","isSecure":false,"reqParam":{"size":"2","column":"id","value":""},"queryString":"column=id&value=&size=2","serverPort":8080,"locale":en_ID,"principal":null,"requestSessionId":"46EFD95D5B689E65A5C2E17DD8E37503","authType":null,"pathInfo":null,"remoteAddr":"127.0.0.1"}
+ERROR IS ==> Cannot invoke "juara.coding.day19.model.Akses.getLtmenu()" because "this.akses" is null
+
+2025-03-31 01:17:11 [http-nio-8080-exec-2] ERROR juara.coding.day19.util.LoggingFile - 
+ERROR IN CLASS ==> JwtFilter
+METHOD ==> doFilterInternal -- {"reqHeader":{"authorization":"Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwYXVsLjEyMzQiLCJwaG4iOiIwODEyODYxMTExMTEiLCJpZCI6MiwiZXhwIjoxNzQzMzYxOTIyLCJpYXQiOjE3NDMzNTgzMjIsIm1sIjoicG9sbC5jaGlodXlAZ21haWwuY29tIn0.-JtOXL5kbcbvRD1l-cofKR_PdfgbU7sL32xazGCPi574tgJ--tFERoPXDiGAmpvm-FMhC723nAWqyJn2RIqzYg","cookie":"JSESSIONID=46EFD95D5B689E65A5C2E17DD8E37503","host":"localhost:8080","accept":"*\/*"},"method":"GET","remoteHost":"127.0.0.1","session":org.apache.catalina.session.StandardSessionFacade@37f5b0da,"serverName":"localhost","isSecure":false,"reqParam":{"size":"2","column":"id","value":""},"queryString":"column=id&value=&size=2","serverPort":8080,"locale":en_ID,"principal":null,"requestSessionId":"46EFD95D5B689E65A5C2E17DD8E37503","authType":null,"pathInfo":null,"remoteAddr":"127.0.0.1"}
+ERROR IS ==> Cannot invoke "juara.coding.day19.model.Akses.getLtmenu()" because "this.akses" is null
+
+2025-03-31 01:17:17 [http-nio-8080-exec-3] ERROR juara.coding.day19.util.LoggingFile - 
+ERROR IN CLASS ==> JwtFilter
+METHOD ==> doFilterInternal -- {"reqHeader":{"authorization":"Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwYXVsLjEyMzQiLCJwaG4iOiIwODEyODYxMTExMTEiLCJpZCI6MiwiZXhwIjoxNzQzMzYxOTIyLCJpYXQiOjE3NDMzNTgzMjIsIm1sIjoicG9sbC5jaGlodXlAZ21haWwuY29tIn0.-JtOXL5kbcbvRD1l-cofKR_PdfgbU7sL32xazGCPi574tgJ--tFERoPXDiGAmpvm-FMhC723nAWqyJn2RIqzYg","cookie":"JSESSIONID=46EFD95D5B689E65A5C2E17DD8E37503","host":"localhost:8080","accept":"*\/*"},"method":"GET","remoteHost":"127.0.0.1","session":org.apache.catalina.session.StandardSessionFacade@37f5b0da,"serverName":"localhost","isSecure":false,"reqParam":{},"queryString":null,"serverPort":8080,"locale":en_ID,"principal":null,"requestSessionId":"46EFD95D5B689E65A5C2E17DD8E37503","authType":null,"pathInfo":null,"remoteAddr":"127.0.0.1"}
+ERROR IS ==> Cannot invoke "juara.coding.day19.model.Akses.getLtmenu()" because "this.akses" is null
+
+2025-03-31 01:17:19 [http-nio-8080-exec-4] ERROR juara.coding.day19.util.LoggingFile - 
+ERROR IN CLASS ==> JwtFilter
+METHOD ==> doFilterInternal -- {"reqHeader":{"authorization":"Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwYXVsLjEyMzQiLCJwaG4iOiIwODEyODYxMTExMTEiLCJpZCI6MiwiZXhwIjoxNzQzMzYxOTIyLCJpYXQiOjE3NDMzNTgzMjIsIm1sIjoicG9sbC5jaGlodXlAZ21haWwuY29tIn0.-JtOXL5kbcbvRD1l-cofKR_PdfgbU7sL32xazGCPi574tgJ--tFERoPXDiGAmpvm-FMhC723nAWqyJn2RIqzYg","cookie":"JSESSIONID=46EFD95D5B689E65A5C2E17DD8E37503","host":"localhost:8080","accept":"*\/*"},"method":"GET","remoteHost":"127.0.0.1","session":org.apache.catalina.session.StandardSessionFacade@37f5b0da,"serverName":"localhost","isSecure":false,"reqParam":{},"queryString":null,"serverPort":8080,"locale":en_ID,"principal":null,"requestSessionId":"46EFD95D5B689E65A5C2E17DD8E37503","authType":null,"pathInfo":null,"remoteAddr":"127.0.0.1"}
+ERROR IS ==> Cannot invoke "juara.coding.day19.model.Akses.getLtmenu()" because "this.akses" is null
+
+2025-04-01 02:53:53 [Thread-9] ERROR juara.coding.day19.util.LoggingFile - 
+ERROR IN CLASS ==> SMTPCORE
+METHOD ==> sendMailWithAttachment
+ERROR IS ==> 534-5.7.9 Application-specific password required. For more information, go to
+534 5.7.9  https://support.google.com/mail/?p=InvalidSecondFactor 41be03b00d2f7-af93b6d571asm5622630a12.39 - gsmtp
+
+
+2025-04-01 02:55:16 [Thread-10] ERROR juara.coding.day19.util.LoggingFile - 
+ERROR IN CLASS ==> SMTPCORE
+METHOD ==> sendMailWithAttachment
+ERROR IS ==> 534-5.7.9 Application-specific password required. For more information, go to
+534 5.7.9  https://support.google.com/mail/?p=InvalidSecondFactor d9443c01a7336-2291f1cf222sm73164915ad.129 - gsmtp
+
+
+2025-04-01 02:57:19 [Thread-9] ERROR juara.coding.day19.util.LoggingFile - 
+ERROR IN CLASS ==> SMTPCORE
+METHOD ==> sendMailWithAttachment
+ERROR IS ==> 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-2291f1cf6dcsm72762785ad.113 - gsmtp
+
+
+2025-04-01 02:58:04 [Thread-9] ERROR juara.coding.day19.util.LoggingFile - 
+ERROR IN CLASS ==> SMTPCORE
+METHOD ==> sendMailWithAttachment
+ERROR IS ==> 534-5.7.9 Application-specific password required. For more information, go to
+534 5.7.9  https://support.google.com/mail/?p=InvalidSecondFactor d2e1a72fcca58-7397106854asm7582008b3a.106 - gsmtp
+
+
+2025-04-01 03:00:44 [Thread-10] ERROR juara.coding.day19.util.LoggingFile - 
+ERROR IN CLASS ==> SMTPCORE
+METHOD ==> sendMailWithAttachment
+ERROR IS ==> 534-5.7.9 Application-specific password required. For more information, go to
+534 5.7.9  https://support.google.com/mail/?p=InvalidSecondFactor 41be03b00d2f7-af93b67f0acsm6716619a12.15 - gsmtp
+
+
+2025-04-01 03:01:14 [Thread-11] ERROR juara.coding.day19.util.LoggingFile - 
+ERROR IN CLASS ==> SMTPCORE
+METHOD ==> sendMailWithAttachment
+ERROR IS ==> 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials 98e67ed59e1d1-305175cf8b4sm7639227a91.49 - gsmtp
+
+
+2025-04-01 03:02:37 [Thread-22] ERROR juara.coding.day19.util.LoggingFile - 
+ERROR IN CLASS ==> SMTPCORE
+METHOD ==> sendMailWithAttachment
+ERROR IS ==> 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-2291f1cf93esm73091245ad.154 - gsmtp
+
+
+2025-04-01 03:02:43 [Thread-23] ERROR juara.coding.day19.util.LoggingFile - 
+ERROR IN CLASS ==> SMTPCORE
+METHOD ==> sendMailWithAttachment
+ERROR IS ==> 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials d2e1a72fcca58-739710acd6esm7607398b3a.145 - gsmtp
+
+
+2025-04-01 03:03:19 [Thread-9] ERROR juara.coding.day19.util.LoggingFile - 
+ERROR IN CLASS ==> SMTPCORE
+METHOD ==> sendMailWithAttachment
+ERROR IS ==> 534-5.7.9 Application-specific password required. For more information, go to
+534 5.7.9  https://support.google.com/mail/?p=InvalidSecondFactor d2e1a72fcca58-739710636ddsm7319746b3a.88 - gsmtp
+
+
+2025-04-01 03:11:24 [Thread-9] ERROR juara.coding.day19.util.LoggingFile - 
+ERROR IN CLASS ==> SMTPCORE
+METHOD ==> sendMailWithAttachment
+ERROR IS ==> 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-2291f1cf812sm73255805ad.135 - gsmtp
+
+
+2025-04-01 03:13:07 [Thread-9] ERROR juara.coding.day19.util.LoggingFile - 
+ERROR IN CLASS ==> SMTPCORE
+METHOD ==> sendMailWithAttachment
+ERROR IS ==> 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-2291eeef8e1sm74125605ad.106 - gsmtp
+
+
+2025-04-01 03:14:42 [Thread-9] ERROR juara.coding.day19.util.LoggingFile - 
+ERROR IN CLASS ==> SMTPCORE
+METHOD ==> sendMailWithAttachment
+ERROR IS ==> 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-2291f1dd285sm73601955ad.169 - gsmtp
+
+
+2025-04-01 03:17:29 [Thread-9] ERROR juara.coding.day19.util.LoggingFile - 
+ERROR IN CLASS ==> SMTPCORE
+METHOD ==> sendMailWithAttachment
+ERROR IS ==> 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials d2e1a72fcca58-739710b38d5sm7641568b3a.139 - gsmtp
+
+
+2025-04-01 03:19:47 [Thread-10] ERROR juara.coding.day19.util.LoggingFile - 
+ERROR IN CLASS ==> SMTPCORE
+METHOD ==> sendMailWithAttachment
+ERROR IS ==> 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials 98e67ed59e1d1-3039dff0529sm11137726a91.16 - gsmtp
+
+
+2025-04-01 03:20:21 [Thread-9] ERROR juara.coding.day19.util.LoggingFile - 
+ERROR IN CLASS ==> SMTPCORE
+METHOD ==> sendMailWithAttachment
+ERROR IS ==> 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-2291f1f7963sm73432345ad.219 - gsmtp
+
+
+2025-04-01 03:20:53 [Thread-9] ERROR juara.coding.day19.util.LoggingFile - 
+ERROR IN CLASS ==> SMTPCORE
+METHOD ==> sendMailWithAttachment
+ERROR IS ==> 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-22942807d66sm32122815ad.50 - gsmtp
+
+
+2025-04-01 03:34:59 [Thread-9] ERROR juara.coding.day19.util.LoggingFile - 
+ERROR IN CLASS ==> SMTPCORE
+METHOD ==> sendMailWithAttachment
+ERROR IS ==> 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials d2e1a72fcca58-73970def0besm7415230b3a.35 - gsmtp
+
+
+2025-04-04 02:30:52 [http-nio-8080-exec-2] ERROR juara.coding.day19.util.LoggingFile - 
+ERROR IN CLASS ==> JwtFilter
+METHOD ==> doFilterInternal -- {"reqHeader":{"authorization":"Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwYXVsLjEyMyIsInBobiI6IjA4MTI4NjExMTExMSIsImlkIjoxLCJleHAiOjE3NDMzNjUxMTIsImlhdCI6MTc0MzM2MTUxMiwibWwiOiJwb2xsLmNoaWh1eUBnbWFpbC5jb20ifQ.PcahqME_lNtQ-sr4pcRKq1rwYdTDGxwOMWHa7RXvMm2NvnB0xdJV8VzaLBW5ftoCVa6nOCaYoK9zbG61tRbVtQ","postman-token":"70aaa078-f049-498f-bf63-29d4f523ec66","host":"localhost:8080","connection":"keep-alive","accept-encoding":"gzip, deflate, br","user-agent":"PostmanRuntime\/7.43.3","accept":"*\/*"},"method":"GET","remoteHost":"0:0:0:0:0:0:0:1","session":org.apache.catalina.session.StandardSessionFacade@565c092d,"serverName":"localhost","isSecure":false,"reqParam":{"size":"2","column":"nama","value":"art"},"queryString":"column=nama&value=art&size=2","serverPort":8080,"locale":en_ID,"principal":null,"requestSessionId":null,"authType":null,"pathInfo":null,"remoteAddr":"0:0:0:0:0:0:0:1"}
+ERROR IS ==> JWT expired at 2025-03-31T03:05:12Z. Current time: 2025-04-04T02:30:51Z, a difference of 343539909 milliseconds.  Allowed clock skew: 0 milliseconds.
+
+2025-04-04 02:31:11 [http-nio-8080-exec-3] ERROR juara.coding.day19.util.LoggingFile - 
+ERROR IN CLASS ==> JwtFilter
+METHOD ==> doFilterInternal -- {"reqHeader":{"authorization":"Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwYXVsLjEyMyIsInBobiI6IjA4MTI4NjExMTExMSIsImlkIjoxLCJleHAiOjE3NDMzNjUxMTIsImlhdCI6MTc0MzM2MTUxMiwibWwiOiJwb2xsLmNoaWh1eUBnbWFpbC5jb20ifQ.PcahqME_lNtQ-sr4pcRKq1rwYdTDGxwOMWHa7RXvMm2NvnB0xdJV8VzaLBW5ftoCVa6nOCaYoK9zbG61tRbVtQ","cookie":"JSESSIONID=5BDB5312441A0135B97F6AA1873F6126","postman-token":"db2c9dc8-184f-4625-8333-3f227c3324c3","host":"localhost:8080","connection":"keep-alive","accept-encoding":"gzip, deflate, br","user-agent":"PostmanRuntime\/7.43.3","accept":"*\/*"},"method":"GET","remoteHost":"0:0:0:0:0:0:0:1","session":org.apache.catalina.session.StandardSessionFacade@565c092d,"serverName":"localhost","isSecure":false,"reqParam":{},"queryString":null,"serverPort":8080,"locale":en_ID,"principal":null,"requestSessionId":"5BDB5312441A0135B97F6AA1873F6126","authType":null,"pathInfo":null,"remoteAddr":"0:0:0:0:0:0:0:1"}
+ERROR IS ==> JWT expired at 2025-03-31T03:05:12Z. Current time: 2025-04-04T02:31:11Z, a difference of 343559277 milliseconds.  Allowed clock skew: 0 milliseconds.
+
+2025-04-05 01:42:56 [http-nio-8080-exec-2] ERROR juara.coding.day19.util.LoggingFile - 
+ERROR IN CLASS ==> JwtFilter
+METHOD ==> doFilterInternal -- {"reqHeader":{"authorization":"Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwYXVsLjEyMyIsInBobiI6IjA4MTI4NjExMTExMSIsImlkIjoxLCJleHAiOjE3NDM3MTIzNjQsImlhdCI6MTc0MzcwODc2NCwibWwiOiJwb2xsLmNoaWh1eUBnbWFpbC5jb20ifQ.61hxnr10g2P7RlQFRhtZGg6ZWXevIE5fN3YMzwCwsW8Y6XfacOYHAk3_EbpOSL8kLLuVWyyz7OpxCwpnlewHoQ","postman-token":"ab0215b2-6e5a-4ef6-a4b3-c8a4df988046","host":"localhost:8080","connection":"keep-alive","accept-encoding":"gzip, deflate, br","user-agent":"PostmanRuntime\/7.43.3","accept":"*\/*"},"method":"GET","remoteHost":"0:0:0:0:0:0:0:1","session":org.apache.catalina.session.StandardSessionFacade@2ce5cf9d,"serverName":"localhost","isSecure":false,"reqParam":{"size":"2","column":"nama","value":"art"},"queryString":"column=nama&value=art&size=2","serverPort":8080,"locale":en_ID,"principal":null,"requestSessionId":null,"authType":null,"pathInfo":null,"remoteAddr":"0:0:0:0:0:0:0:1"}
+ERROR IS ==> JWT expired at 2025-04-04T03:32:44Z. Current time: 2025-04-05T01:42:56Z, a difference of 79812475 milliseconds.  Allowed clock skew: 0 milliseconds.
+

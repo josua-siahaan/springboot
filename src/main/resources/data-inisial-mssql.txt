@@ -1,0 +1,419 @@
+/*
+ Navicat Premium Data Transfer
+
+ Source Server         : LOCAL_SQLEXPRESS
+ Source Server Type    : SQL Server
+ Source Server Version : 15002130
+ Source Host           : localhost:1433
+ Source Catalog        : BEB24
+ Source Schema         : dbproject
+
+ Target Server Type    : SQL Server
+ Target Server Version : 15002130
+ File Encoding         : 65001
+
+ Date: 10/03/2025 18:39:42
+*/
+
+
+-- ----------------------------
+-- Table structure for MapAksesMenu
+-- ----------------------------
+IF EXISTS (SELECT * FROM sys.all_objects WHERE object_id = OBJECT_ID(N'[dbproject].[MapAksesMenu]') AND type IN ('U'))
+	DROP TABLE [dbproject].[MapAksesMenu]
+GO
+
+CREATE TABLE [dbproject].[MapAksesMenu] (
+  [IDAkses] bigint  NOT NULL,
+  [IDMenu] bigint  NOT NULL
+)
+GO
+
+ALTER TABLE [dbproject].[MapAksesMenu] SET (LOCK_ESCALATION = TABLE)
+GO
+
+
+-- ----------------------------
+-- Records of MapAksesMenu
+-- ----------------------------
+INSERT INTO [dbproject].[MapAksesMenu] ([IDAkses], [IDMenu]) VALUES (N'1', N'1')
+GO
+
+INSERT INTO [dbproject].[MapAksesMenu] ([IDAkses], [IDMenu]) VALUES (N'1', N'2')
+GO
+
+INSERT INTO [dbproject].[MapAksesMenu] ([IDAkses], [IDMenu]) VALUES (N'1', N'3')
+GO
+
+INSERT INTO [dbproject].[MapAksesMenu] ([IDAkses], [IDMenu]) VALUES (N'1', N'4')
+GO
+
+INSERT INTO [dbproject].[MapAksesMenu] ([IDAkses], [IDMenu]) VALUES (N'1', N'5')
+GO
+
+INSERT INTO [dbproject].[MapAksesMenu] ([IDAkses], [IDMenu]) VALUES (N'1', N'6')
+GO
+
+INSERT INTO [dbproject].[MapAksesMenu] ([IDAkses], [IDMenu]) VALUES (N'2', N'5')
+GO
+
+INSERT INTO [dbproject].[MapAksesMenu] ([IDAkses], [IDMenu]) VALUES (N'2', N'6')
+GO
+
+
+-- ----------------------------
+-- Table structure for MstAkses
+-- ----------------------------
+IF EXISTS (SELECT * FROM sys.all_objects WHERE object_id = OBJECT_ID(N'[dbproject].[MstAkses]') AND type IN ('U'))
+	DROP TABLE [dbproject].[MstAkses]
+GO
+
+CREATE TABLE [dbproject].[MstAkses] (
+  [CreatedBy] bigint  NOT NULL,
+  [CreatedDate] datetime2(6)  NOT NULL,
+  [IDAkses] bigint  IDENTITY(1,1) NOT NULL,
+  [ModifiedBy] bigint  NULL,
+  [ModifiedDate] datetime2(6)  NULL,
+  [NamaAkses] varchar(20) COLLATE SQL_Latin1_General_CP1_CI_AS  NOT NULL,
+  [Deskripsi] varchar(100) COLLATE SQL_Latin1_General_CP1_CI_AS  NOT NULL
+)
+GO
+
+ALTER TABLE [dbproject].[MstAkses] SET (LOCK_ESCALATION = TABLE)
+GO
+
+
+-- ----------------------------
+-- Records of MstAkses
+-- ----------------------------
+SET IDENTITY_INSERT [dbproject].[MstAkses] ON
+GO
+
+INSERT INTO [dbproject].[MstAkses] ([CreatedBy], [CreatedDate], [IDAkses], [ModifiedBy], [ModifiedDate], [NamaAkses], [Deskripsi]) VALUES (N'1', N'2025-03-10 18:33:19.000000', N'1', NULL, NULL, N'Admin', N'Administrator')
+GO
+
+INSERT INTO [dbproject].[MstAkses] ([CreatedBy], [CreatedDate], [IDAkses], [ModifiedBy], [ModifiedDate], [NamaAkses], [Deskripsi]) VALUES (N'1', N'2025-03-10 18:33:35.000000', N'2', NULL, NULL, N'Member', N'Default Akses Dari Proses Registrasi')
+GO
+
+SET IDENTITY_INSERT [dbproject].[MstAkses] OFF
+GO
+
+
+-- ----------------------------
+-- Table structure for MstCoba
+-- ----------------------------
+IF EXISTS (SELECT * FROM sys.all_objects WHERE object_id = OBJECT_ID(N'[dbproject].[MstCoba]') AND type IN ('U'))
+	DROP TABLE [dbproject].[MstCoba]
+GO
+
+CREATE TABLE [dbproject].[MstCoba] (
+  [ID] int  NOT NULL,
+  [Nama] varchar(50) COLLATE SQL_Latin1_General_CP1_CI_AS DEFAULT 'Paul' NOT NULL
+)
+GO
+
+ALTER TABLE [dbproject].[MstCoba] SET (LOCK_ESCALATION = TABLE)
+GO
+
+
+-- ----------------------------
+-- Records of MstCoba
+-- ----------------------------
+INSERT INTO [dbproject].[MstCoba] ([ID], [Nama]) VALUES (N'1', N'Paul')
+GO
+
+
+-- ----------------------------
+-- Table structure for MstGroupMenu
+-- ----------------------------
+IF EXISTS (SELECT * FROM sys.all_objects WHERE object_id = OBJECT_ID(N'[dbproject].[MstGroupMenu]') AND type IN ('U'))
+	DROP TABLE [dbproject].[MstGroupMenu]
+GO
+
+CREATE TABLE [dbproject].[MstGroupMenu] (
+  [CreatedBy] bigint  NOT NULL,
+  [CreatedDate] datetime2(6)  NOT NULL,
+  [IDGroup] bigint  IDENTITY(1,1) NOT NULL,
+  [ModifiedBy] bigint  NULL,
+  [ModifiedDate] datetime2(6)  NULL,
+  [Nama] varchar(50) COLLATE SQL_Latin1_General_CP1_CI_AS  NOT NULL,
+  [Deskripsi] varchar(100) COLLATE SQL_Latin1_General_CP1_CI_AS  NOT NULL
+)
+GO
+
+ALTER TABLE [dbproject].[MstGroupMenu] SET (LOCK_ESCALATION = TABLE)
+GO
+
+
+-- ----------------------------
+-- Records of MstGroupMenu
+-- ----------------------------
+SET IDENTITY_INSERT [dbproject].[MstGroupMenu] ON
+GO
+
+INSERT INTO [dbproject].[MstGroupMenu] ([CreatedBy], [CreatedDate], [IDGroup], [ModifiedBy], [ModifiedDate], [Nama], [Deskripsi]) VALUES (N'1', N'2025-03-10 18:32:05.000000', N'1', NULL, NULL, N'User Management', N'Untuk Pengaturan Yang Berkaitan Dengan User')
+GO
+
+INSERT INTO [dbproject].[MstGroupMenu] ([CreatedBy], [CreatedDate], [IDGroup], [ModifiedBy], [ModifiedDate], [Nama], [Deskripsi]) VALUES (N'1', N'2025-03-10 18:35:13.000000', N'2', NULL, NULL, N'Artikel', N'Group Menu Untuk Default User Setelah Registrasi')
+GO
+
+SET IDENTITY_INSERT [dbproject].[MstGroupMenu] OFF
+GO
+
+
+-- ----------------------------
+-- Table structure for MstMenu
+-- ----------------------------
+IF EXISTS (SELECT * FROM sys.all_objects WHERE object_id = OBJECT_ID(N'[dbproject].[MstMenu]') AND type IN ('U'))
+	DROP TABLE [dbproject].[MstMenu]
+GO
+
+CREATE TABLE [dbproject].[MstMenu] (
+  [CreatedBy] bigint  NOT NULL,
+  [CreatedDate] datetime2(6)  NOT NULL,
+  [IDGroupMenu] bigint  NOT NULL,
+  [IDMenu] bigint  IDENTITY(1,1) NOT NULL,
+  [ModifiedBy] bigint  NULL,
+  [ModifiedDate] datetime2(6)  NULL,
+  [NamaMenu] varchar(20) COLLATE SQL_Latin1_General_CP1_CI_AS  NOT NULL,
+  [Path] varchar(20) COLLATE SQL_Latin1_General_CP1_CI_AS  NOT NULL
+)
+GO
+
+ALTER TABLE [dbproject].[MstMenu] SET (LOCK_ESCALATION = TABLE)
+GO
+
+
+-- ----------------------------
+-- Records of MstMenu
+-- ----------------------------
+SET IDENTITY_INSERT [dbproject].[MstMenu] ON
+GO
+
+INSERT INTO [dbproject].[MstMenu] ([CreatedBy], [CreatedDate], [IDGroupMenu], [IDMenu], [ModifiedBy], [ModifiedDate], [NamaMenu], [Path]) VALUES (N'1', N'2025-03-10 18:34:26.000000', N'1', N'1', NULL, NULL, N'Group-Menu', N'/group-menu')
+GO
+
+INSERT INTO [dbproject].[MstMenu] ([CreatedBy], [CreatedDate], [IDGroupMenu], [IDMenu], [ModifiedBy], [ModifiedDate], [NamaMenu], [Path]) VALUES (N'1', N'2025-03-10 18:34:47.000000', N'1', N'2', NULL, NULL, N'Menu', N'/menu')
+GO
+
+INSERT INTO [dbproject].[MstMenu] ([CreatedBy], [CreatedDate], [IDGroupMenu], [IDMenu], [ModifiedBy], [ModifiedDate], [NamaMenu], [Path]) VALUES (N'1', N'2025-03-10 18:35:02.000000', N'1', N'3', NULL, NULL, N'Akses', N'/akses')
+GO
+
+INSERT INTO [dbproject].[MstMenu] ([CreatedBy], [CreatedDate], [IDGroupMenu], [IDMenu], [ModifiedBy], [ModifiedDate], [NamaMenu], [Path]) VALUES (N'1', N'2025-03-10 18:35:13.000000', N'1', N'4', NULL, NULL, N'User', N'/user')
+GO
+
+INSERT INTO [dbproject].[MstMenu] ([CreatedBy], [CreatedDate], [IDGroupMenu], [IDMenu], [ModifiedBy], [ModifiedDate], [NamaMenu], [Path]) VALUES (N'1', N'2025-03-10 18:35:13.000000', N'2', N'5', NULL, NULL, N'Artikel-1', N'/artikel-1')
+GO
+
+INSERT INTO [dbproject].[MstMenu] ([CreatedBy], [CreatedDate], [IDGroupMenu], [IDMenu], [ModifiedBy], [ModifiedDate], [NamaMenu], [Path]) VALUES (N'1', N'2025-03-10 18:35:13.000000', N'2', N'6', NULL, NULL, N'Artikel-2', N'/artikel-2')
+GO
+
+SET IDENTITY_INSERT [dbproject].[MstMenu] OFF
+GO
+
+
+-- ----------------------------
+-- Table structure for MstUser
+-- ----------------------------
+IF EXISTS (SELECT * FROM sys.all_objects WHERE object_id = OBJECT_ID(N'[dbproject].[MstUser]') AND type IN ('U'))
+	DROP TABLE [dbproject].[MstUser]
+GO
+
+CREATE TABLE [dbproject].[MstUser] (
+  [IsRegistered] bit DEFAULT 0 NULL,
+  [TanggalLahir] date  NULL,
+  [CreatedBy] bigint  NOT NULL,
+  [CreatedDate] datetime2(6)  NOT NULL,
+  [IDAkses] bigint  NULL,
+  [IDUser] bigint  IDENTITY(1,1) NOT NULL,
+  [ModifiedBy] bigint  NULL,
+  [ModifiedDate] datetime2(6)  NULL,
+  [NoHp] varchar(16) COLLATE SQL_Latin1_General_CP1_CI_AS  NOT NULL,
+  [username] varchar(40) COLLATE SQL_Latin1_General_CP1_CI_AS  NOT NULL,
+  [Nama] varchar(50) COLLATE SQL_Latin1_General_CP1_CI_AS  NOT NULL,
+  [OTP] varchar(60) COLLATE SQL_Latin1_General_CP1_CI_AS  NULL,
+  [Password] varchar(60) COLLATE SQL_Latin1_General_CP1_CI_AS  NOT NULL,
+  [Email] varchar(64) COLLATE SQL_Latin1_General_CP1_CI_AS  NOT NULL,
+  [Alamat] varchar(255) COLLATE SQL_Latin1_General_CP1_CI_AS  NOT NULL,
+  [LinkProfilePicture] varchar(255) COLLATE SQL_Latin1_General_CP1_CI_AS  NULL,
+  [ProfilePicture] varchar(255) COLLATE SQL_Latin1_General_CP1_CI_AS  NULL
+)
+GO
+
+ALTER TABLE [dbproject].[MstUser] SET (LOCK_ESCALATION = TABLE)
+GO
+
+
+-- ----------------------------
+-- Records of MstUser
+-- ----------------------------
+SET IDENTITY_INSERT [dbproject].[MstUser] ON
+GO
+
+INSERT INTO [dbproject].[MstUser] ([IsRegistered], [TanggalLahir], [CreatedBy], [CreatedDate], [IDAkses], [IDUser], [ModifiedBy], [ModifiedDate], [NoHp], [username], [Nama], [OTP], [Password], [Email], [Alamat], [LinkProfilePicture], [ProfilePicture]) VALUES (N'1', N'1995-12-12', N'1', N'2025-03-07 21:41:59.211000', N'1', N'1', N'2', NULL, N'081286111111', N'paul.123', N'Paul Christian Malau', N'$2a$11$s7GIe89MZEBVj0JclLha5ubV5e/iAulQvGDyeaOT2R.x/U3gls34y', N'$2a$11$546ppLHA5lOGkrVXebxk.OPLNkrHrJ27gRgKiM4FOTVneRVzu7IXm', N'poll.chihuy@gmail.com', N'Bogor Bogor Bogor Bogor Bogor Bogor Bogor ', NULL, NULL)
+GO
+
+SET IDENTITY_INSERT [dbproject].[MstUser] OFF
+GO
+
+
+-- ----------------------------
+-- Uniques structure for table MapAksesMenu
+-- ----------------------------
+ALTER TABLE [dbproject].[MapAksesMenu] ADD CONSTRAINT [unq-akses-to-menu] UNIQUE NONCLUSTERED ([IDAkses] ASC, [IDMenu] ASC)
+WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON)
+ON [PRIMARY]
+GO
+
+
+-- ----------------------------
+-- Auto increment value for MstAkses
+-- ----------------------------
+DBCC CHECKIDENT ('[dbproject].[MstAkses]', RESEED, 2)
+GO
+
+
+-- ----------------------------
+-- Uniques structure for table MstAkses
+-- ----------------------------
+ALTER TABLE [dbproject].[MstAkses] ADD CONSTRAINT [UKng7cd4jbvlld3y6hhc78k3k1n] UNIQUE NONCLUSTERED ([NamaAkses] ASC)
+WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON)
+ON [PRIMARY]
+GO
+
+
+-- ----------------------------
+-- Primary Key structure for table MstAkses
+-- ----------------------------
+ALTER TABLE [dbproject].[MstAkses] ADD CONSTRAINT [PK__MstAkses__54B7D338302E7F9A] PRIMARY KEY CLUSTERED ([IDAkses])
+WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON)
+ON [PRIMARY]
+GO
+
+
+-- ----------------------------
+-- Primary Key structure for table MstCoba
+-- ----------------------------
+ALTER TABLE [dbproject].[MstCoba] ADD CONSTRAINT [PK__MstCoba__3214EC27651C3847] PRIMARY KEY CLUSTERED ([ID])
+WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON)
+ON [PRIMARY]
+GO
+
+
+-- ----------------------------
+-- Auto increment value for MstGroupMenu
+-- ----------------------------
+DBCC CHECKIDENT ('[dbproject].[MstGroupMenu]', RESEED, 2)
+GO
+
+
+-- ----------------------------
+-- Uniques structure for table MstGroupMenu
+-- ----------------------------
+ALTER TABLE [dbproject].[MstGroupMenu] ADD CONSTRAINT [UK7jkpan6fqxc0ohhc2ov6olmls] UNIQUE NONCLUSTERED ([Nama] ASC)
+WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON)
+ON [PRIMARY]
+GO
+
+ALTER TABLE [dbproject].[MstGroupMenu] ADD CONSTRAINT [UKdcuj9xjr7xfbyrngw9ltd8jsf] UNIQUE NONCLUSTERED ([Deskripsi] ASC)
+WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON)
+ON [PRIMARY]
+GO
+
+
+-- ----------------------------
+-- Primary Key structure for table MstGroupMenu
+-- ----------------------------
+ALTER TABLE [dbproject].[MstGroupMenu] ADD CONSTRAINT [PK__MstGroup__CB4260CAC7B169D2] PRIMARY KEY CLUSTERED ([IDGroup])
+WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON)
+ON [PRIMARY]
+GO
+
+
+-- ----------------------------
+-- Auto increment value for MstMenu
+-- ----------------------------
+DBCC CHECKIDENT ('[dbproject].[MstMenu]', RESEED, 6)
+GO
+
+
+-- ----------------------------
+-- Uniques structure for table MstMenu
+-- ----------------------------
+ALTER TABLE [dbproject].[MstMenu] ADD CONSTRAINT [UKqfuwr0ehsyv6rwbuhur9gt19m] UNIQUE NONCLUSTERED ([NamaMenu] ASC)
+WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON)
+ON [PRIMARY]
+GO
+
+
+-- ----------------------------
+-- Primary Key structure for table MstMenu
+-- ----------------------------
+ALTER TABLE [dbproject].[MstMenu] ADD CONSTRAINT [PK__MstMenu__089D3C225880EDFD] PRIMARY KEY CLUSTERED ([IDMenu])
+WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON)
+ON [PRIMARY]
+GO
+
+
+-- ----------------------------
+-- Auto increment value for MstUser
+-- ----------------------------
+DBCC CHECKIDENT ('[dbproject].[MstUser]', RESEED, 1)
+GO
+
+
+-- ----------------------------
+-- Uniques structure for table MstUser
+-- ----------------------------
+ALTER TABLE [dbproject].[MstUser] ADD CONSTRAINT [UK5rm45ec1bxtxt1uadsx2ulfgk] UNIQUE NONCLUSTERED ([username] ASC)
+WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON)
+ON [PRIMARY]
+GO
+
+ALTER TABLE [dbproject].[MstUser] ADD CONSTRAINT [UKftqfpu08362mh0w1ccyoqa4x3] UNIQUE NONCLUSTERED ([NoHp] ASC)
+WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON)
+ON [PRIMARY]
+GO
+
+ALTER TABLE [dbproject].[MstUser] ADD CONSTRAINT [UKgyqdnp71ewj9g77l2v7kc47g2] UNIQUE NONCLUSTERED ([Password] ASC)
+WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON)
+ON [PRIMARY]
+GO
+
+ALTER TABLE [dbproject].[MstUser] ADD CONSTRAINT [UKoboap7j0f37yn6as1f4bdg8ge] UNIQUE NONCLUSTERED ([Email] ASC)
+WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON)
+ON [PRIMARY]
+GO
+
+
+-- ----------------------------
+-- Primary Key structure for table MstUser
+-- ----------------------------
+ALTER TABLE [dbproject].[MstUser] ADD CONSTRAINT [PK__MstUser__EAE6D9DFE63A2F0F] PRIMARY KEY CLUSTERED ([IDUser])
+WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON)
+ON [PRIMARY]
+GO
+
+
+-- ----------------------------
+-- Foreign Keys structure for table MapAksesMenu
+-- ----------------------------
+ALTER TABLE [dbproject].[MapAksesMenu] ADD CONSTRAINT [fk-toMenu] FOREIGN KEY ([IDMenu]) REFERENCES [dbproject].[MstMenu] ([IDMenu]) ON DELETE NO ACTION ON UPDATE NO ACTION
+GO
+
+ALTER TABLE [dbproject].[MapAksesMenu] ADD CONSTRAINT [fk-toAkses] FOREIGN KEY ([IDAkses]) REFERENCES [dbproject].[MstAkses] ([IDAkses]) ON DELETE NO ACTION ON UPDATE NO ACTION
+GO
+
+
+-- ----------------------------
+-- Foreign Keys structure for table MstMenu
+-- ----------------------------
+ALTER TABLE [dbproject].[MstMenu] ADD CONSTRAINT [fk-to-groupmenu] FOREIGN KEY ([IDGroupMenu]) REFERENCES [dbproject].[MstGroupMenu] ([IDGroup]) ON DELETE NO ACTION ON UPDATE NO ACTION
+GO
+
+
+-- ----------------------------
+-- Foreign Keys structure for table MstUser
+-- ----------------------------
+ALTER TABLE [dbproject].[MstUser] ADD CONSTRAINT [fk-user-to-akses] FOREIGN KEY ([IDAkses]) REFERENCES [dbproject].[MstAkses] ([IDAkses]) ON DELETE NO ACTION ON UPDATE NO ACTION
+GO
